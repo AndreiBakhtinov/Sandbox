@@ -1,0 +1,7 @@
+Table orders {
+  order_id int [pk, increment]
+  customer_id int
+  employee_id int
+  shipper_id int
+  order_date timestamp
+}
