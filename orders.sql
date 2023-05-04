@@ -1,0 +1,4 @@
+SELECT *
+FROM Orders
+ORDER BY OrderDate DESC
+LIMIT 10;
