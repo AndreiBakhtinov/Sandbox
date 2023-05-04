@@ -1,3 +1,13 @@
+table suppliers{
+	supplier_id int [pk, increment]
+  name varchar
+	adress varchar
+  phone num
+	email varchar
+  registration_date timestamp
+  is_active varchar
+}
+
 table Products{
   ProductID int [pk, increment]
   ProductName varchar
