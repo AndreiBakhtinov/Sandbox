@@ -1,7 +1,27 @@
+
 Table orders {
   order_id int [pk, increment]
   customer_id int
   employee_id int
   shipper_id int
   order_date timestamp
+}
+
+table suppliers{
+	supplier_id int [pk, increment]
+  name varchar
+	adress varchar
+  phone num
+	email varchar
+  registration_date timestamp
+  is_active varchar
+}
+
+table Products{
+  ProductID int [pk, increment]
+  ProductName varchar
+  SupplierID int
+  CategoryID int
+  Unit varchar
+  Price decimal(8,2)
 }
