@@ -7,3 +7,12 @@ table suppliers{
   registration_date timestamp
   is_active varchar
 }
+
+table Products{
+  ProductID int [pk, increment]
+  ProductName varchar
+  SupplierID int
+  CategoryID int
+  Unit varchar
+  Price decimal(8,2)
+}
